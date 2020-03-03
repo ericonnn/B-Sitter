@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_admin_verification"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Verification" />
+
+        <item
+            android:id="@+id/nav_admin_order_majikan"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Order Majikan" />
+
+        <item
+            android:id="@+id/nav_admin_order_penyalur"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Order Penyalur" />
+
+        <item
+            android:id="@+id/nav_admin_logout"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Logout" />
+
+    </group>
+
+</menu>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation_penyalur"
+    app:startDestination="@+id/nav_penyalur_dashboard">
+
+    <fragment
+        android:id="@+id/nav_penyalur_dashboard"
+        android:name="com.example.b_sitter.Majikan.MajikanDashboardFragment"
+        android:label="Dashboard"
+        tools:layout="@layout/penyalur_dashboard_fragment" />
+
+    <fragment
+        android:id="@+id/nav_penyalur_profile"
+        android:name="com.example.b_sitter.Majikan.MajikanChatFragment"
+        android:label="Profile"
+        tools:layout="@layout/penyalur_profile_fragment" />
+
+    <fragment
+        android:id="@+id/nav_penyalur_manage_order"
+        android:name="com.example.b_sitter.Majikan.MajikanWishlistFragment"
+        android:label="Manage Order"
+        tools:layout="@layout/penyalur_manage_order_fragment" />
+
+    <fragment
+        android:id="@+id/nav_penyalur_manage_babysitter"
+        android:name="com.example.b_sitter.Majikan.MajikanWishlistFragment"
+        android:label="Manage Babysitter"
+        tools:layout="@layout/penyalur_manage_babysitter_fragment" />
+
+    <fragment
+        android:id="@+id/nav_penyalur_chat"
+        android:name="com.example.b_sitter.Majikan.MajikanOrderFragment"
+        android:label="Chat"
+        tools:layout="@layout/penyalur_chat_fragment" />
+
+    <fragment
+        android:id="@+id/nav_penyalur_logout"
+        android:label="Logout" />
+
+</navigation>

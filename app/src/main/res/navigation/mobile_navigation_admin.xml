@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation_admin"
+    app:startDestination="@+id/nav_admin_verification">
+
+    <fragment
+        android:id="@+id/nav_admin_verification"
+        android:name="com.example.b_sitter.Majikan.MajikanDashboardFragment"
+        android:label="Verification"
+        tools:layout="@layout/admin_verification_fragment" />
+
+    <fragment
+        android:id="@+id/nav_admin_order_majikan"
+        android:name="com.example.b_sitter.Majikan.MajikanChatFragment"
+        android:label="Order Majikan"
+        tools:layout="@layout/admin_order_majikan_fragment" />
+
+    <fragment
+        android:id="@+id/nav_admin_order_penyalur"
+        android:name="com.example.b_sitter.Majikan.MajikanWishlistFragment"
+        android:label="Order Penyalur"
+        tools:layout="@layout/admin_order_penyalur_fragment" />
+
+    <fragment
+        android:id="@+id/nav_admin_logout"
+        android:label="Logout" />
+
+</navigation>

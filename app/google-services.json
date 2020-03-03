@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "106403643975",
+    "firebase_url": "https://b-sitter-861f1.firebaseio.com",
+    "project_id": "b-sitter-861f1",
+    "storage_bucket": "b-sitter-861f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106403643975:android:cd3ab8d64fea9689fa2762",
+        "android_client_info": {
+          "package_name": "com.example.b_sitter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "106403643975-p00gb19v3e41ap65tg0a7jc6ojdlntsg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.b_sitter",
+            "certificate_hash": "ee44dabd7fd36e9b01f6b61b2122f49d5256f7a5"
+          }
+        },
+        {
+          "client_id": "106403643975-ehhp5gsbri94082avcflda22rmvfptd4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJ55YX7s1eHEOOHClvqOQLIH45sVMTVCU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "106403643975-ehhp5gsbri94082avcflda22rmvfptd4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation_majikan"
+    app:startDestination="@+id/nav_majikan_dashboard">
+
+    <fragment
+        android:id="@+id/nav_majikan_dashboard"
+        android:name="com.example.b_sitter.Majikan.MajikanDashboardFragment"
+        android:label="Dashboard"
+        tools:layout="@layout/majikan_dashboard_fragment" />
+
+    <fragment
+        android:id="@+id/nav_majikan_profile"
+        android:name="com.example.b_sitter.Majikan.MajikanChatFragment"
+        android:label="Profile"
+        tools:layout="@layout/majikan_chat_fragment" />
+
+    <fragment
+        android:id="@+id/nav_majikan_order"
+        android:name="com.example.b_sitter.Majikan.MajikanWishlistFragment"
+        android:label="Order"
+        tools:layout="@layout/majikan_wishlist_fragment" />
+
+    <fragment
+        android:id="@+id/nav_majikan_chat"
+        android:name="com.example.b_sitter.Majikan.MajikanOrderFragment"
+        android:label="Chat"
+        tools:layout="@layout/majikan_order_fragment" />
+
+    <fragment
+        android:id="@+id/nav_majikan_wishlist"
+        android:name="com.example.b_sitter.Majikan.MajikanProfileFragment"
+        android:label="Wishlist"
+        tools:layout="@layout/majikan_profile_fragment" />
+
+    <fragment
+        android:id="@+id/nav_majikan_logout"
+        android:label="Wishlist" />
+</navigation>
